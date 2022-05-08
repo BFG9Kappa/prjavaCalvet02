@@ -17,7 +17,8 @@ public class Prjava02 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Versió 0.1 del projecte prjava02"); 	
+        System.out.println("Versió 1 del projecte prjava02");
+        System.out.println("Creacio de una branca del projecte prjavaCalvet02");
         try {
             InetAddress adreca = InetAddress.getLocalHost();
             String hostname = adreca.getHostName();
